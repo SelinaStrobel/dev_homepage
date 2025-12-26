@@ -1,20 +1,18 @@
+import Layout from "./layout.js";
+
 interface IndexPageProps {
     some_text: string,
 }
 export default function IndexPage(props: IndexPageProps): React.ReactNode {
-    return <html lang="en">
-        <head>
-            <meta charSet="UTF-8" />
-            <title>Some Homepage</title>
-            <meta name="viewport" content="width=device-width,initial-scale=1" />
-            <link rel="stylesheet" type="text/css" href="/styles.css" />
-        </head>
-
-        <body>
+    return<Layout title="Selina">
+          <body>
             <div>
-                <h1 className="some_heading">Hello World!</h1>
+                <h1 className="index_page_some_heading"> <a href="/about">Merry CHRIStmas!!</a> </h1>
                 <p>{props.some_text}</p>
+                <a href="/about">About</a>
+                
             </div>
         </body>
-    </html>;
+    </Layout>
+   
 }
