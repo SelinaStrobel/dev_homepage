@@ -11,11 +11,28 @@ export default function Layout(props: React.PropsWithChildren<LayoutProps>): Rea
         </head>
 
         <body>
-            <div>
-                <a href="/" className="layout_header_title">Selina Strobel</a>
+            <div className="layout_navbar">
+                <div className="layout_navbar_left">
+                    <a href="/">Selina Strobel</a>
+                </div>
+                <div className="layout_navbar_right">
+                    <div>
+                        Projekte
+                    </div>
+                    <div>
+                        About
+                    </div>
+
+                </div>
+
             </div>
-            <div>
+
+            <div className="layout_body">
                 {props.children}
+            </div>
+
+            <div className="layout_footer">
+                Contact
             </div>
         </body>
     </html>;

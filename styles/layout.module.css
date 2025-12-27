@@ -1,0 +1,40 @@
+.layout_navbar {
+    background-color: cornflowerblue;
+    font-family: "Century Gothic";
+    gap: 45px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.layout_navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.layout_navbar_left {
+    font-size: 35px;
+    color: black;
+}
+
+.layout_navbar_right {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.layout_body {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Century Gothic";
+}
+
+.layout_footer {
+    background-color: cornflowerblue;
+    font-size: 10px;
+    font-family: "Century Gothic";
+}
