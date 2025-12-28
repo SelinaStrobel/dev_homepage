@@ -6,6 +6,7 @@ import { transform } from "lightningcss";
 
 import AboutPage from "./components/about_page.js";
 import path from "path";
+import HKAForumPage from "./components/project_hkaforum_page.js";
 
 async function buildStyles() {
     const sourcePaths = [
@@ -53,7 +54,7 @@ function buildRouteInBG(route: string, element: React.ReactNode) {
     buildLoadPathHTMLInBG(`./deploy/${route}/index.html`, element);
 }
 
-function ensureDirExists(dir: string): void {
+export function ensureDirExists(dir: string): void {
     if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir, { recursive: true });
     }
@@ -81,6 +82,7 @@ async function copyDir(srcDir: string, destDir: string): Promise<void> {
 
 ensureDirExists("./deploy");
 buildStyles().catch(e => { throw e; });
-buildRouteInBG("/", <IndexPage some_text="How are you?" />);
-buildRouteInBG("/about", <AboutPage some_text="About" />);
+buildRouteInBG("/", <IndexPage />);
+buildRouteInBG("/about", <AboutPage />);
+buildRouteInBG("/projects/hkaforum", <HKAForumPage />);
 copyDir("./static", "./deploy").catch(e => { throw e; });

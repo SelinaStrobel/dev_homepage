@@ -6,3 +6,8 @@
     color: rgb(255, 0, 0);
     text-decoration: none;
 }
+
+.index_page img {
+    width: 800px;
+    height: auto;
+}
