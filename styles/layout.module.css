@@ -1,5 +1,5 @@
 .layout_navbar {
-    background-color: cornflowerblue;
+    background-color: rgb(164, 167, 172);
     font-family: "Century Gothic";
     gap: 45px;
     padding: 10px;
@@ -34,7 +34,7 @@
 }
 
 .layout_footer {
-    background-color: cornflowerblue;
+    background-color: rgb(164, 167, 172);
     font-size: 10px;
     font-family: "Century Gothic";
 }

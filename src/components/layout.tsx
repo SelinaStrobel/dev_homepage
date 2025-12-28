@@ -20,7 +20,7 @@ export default function Layout(props: React.PropsWithChildren<LayoutProps>): Rea
                         Projekte
                     </div>
                     <div>
-                        About
+                        <a href="/about">About</a>
                     </div>
 
                 </div>
