@@ -8,6 +8,7 @@ export default function Layout(props: React.PropsWithChildren<LayoutProps>): Rea
             <title>{props.title}</title>
             <meta name="viewport" content="width=device-width,initial-scale=1" />
             <link rel="stylesheet" type="text/css" href="/styles.css" />
+            <script defer src="https://analytics.chris-besch.com/script.js" data-website-id="7b94afa8-f505-4181-aeb4-4ca5b9bfb244"></script>
         </head>
 
         <body>

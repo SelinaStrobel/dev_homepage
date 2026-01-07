@@ -1,13 +1,28 @@
-.index_page_some_heading {
-    color: rgb(255, 0, 0);
-}
-
-.index_page_some_heading a {
-    color: rgb(255, 0, 0);
-    text-decoration: none;
+.index_page_heading {
+    color: black;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
 }
 
 .index_page img {
     width: 800px;
     height: auto;
+}
+
+.index_page_project {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    margin: 5px;
+
+}
+
+.index_page_project_title {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
 }
