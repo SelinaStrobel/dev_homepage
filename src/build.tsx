@@ -15,6 +15,7 @@ async function buildStyles() {
         "./styles/layout.module.css",
         "./styles/reset.css",
         "./styles/fonts.css",
+        "./styles/project_hkaforum_page.module.css"
     ];
     const destPath = "./deploy/styles.css";
     const sources = await Promise.all(sourcePaths.map(s => fs.promises.readFile(s)));

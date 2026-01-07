@@ -6,7 +6,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white
+    color: white;
+    align-items: center;
 }
 
 .layout_navbar a {
@@ -17,6 +18,8 @@
 
 .layout_navbar_left {
     font-size: 25px;
+ 
+    
 
 }
 
@@ -25,6 +28,7 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    align-items: center;
 }
 
 
