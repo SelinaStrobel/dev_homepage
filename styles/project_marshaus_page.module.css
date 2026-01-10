@@ -5,33 +5,27 @@
     margin: 10px;
     gap: 10px;
 
+}
 
-
-
-
+.marshaus_page img {
+    width: 100%;
+    height: auto;
 }
 
 .marshaus_page_titleimage {
-    height: 300px;
-    width: 100%;
+    width: 80%;
     flex-basis: content;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.marshaus_page_titleimage img {
-    width: 80%;
+.marshaus_page_image_progress {
+    width: 50%;
     height: auto;
-
 }
 
-.marshaus_page_text1 {}
+.marshaus_page_text1 {
+    width: 80%;
 
-.marshaus_page_image01 {
-    height: 200px;
-    width: auto;
-}
-
-.marshaus_page_image02 {
-    height: 200px;
-    width: auto;
 }

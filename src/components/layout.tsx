@@ -18,7 +18,7 @@ export default function Layout(props: React.PropsWithChildren<LayoutProps>): Rea
                 </div>
                 <div className="layout_navbar_right">
                     <div>
-                        Projekte
+                        <a href="/projects">Projekte</a>
                     </div>
                     <div>
                         <a href="/about">About</a>
