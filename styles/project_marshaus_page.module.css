@@ -1,0 +1,37 @@
+.marshaus_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+
+
+
+
+
+}
+
+.marshaus_page_titleimage {
+    height: 300px;
+    width: 100%;
+    flex-basis: content;
+    object-fit: cover;
+}
+
+.marshaus_page_titleimage img {
+    width: 80%;
+    height: auto;
+
+}
+
+.marshaus_page_text1 {}
+
+.marshaus_page_image01 {
+    height: 200px;
+    width: auto;
+}
+
+.marshaus_page_image02 {
+    height: 200px;
+    width: auto;
+}

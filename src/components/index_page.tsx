@@ -12,7 +12,7 @@ export default function IndexPage(): React.ReactNode {
                 
 
              <a className="index_page_project" href="/projects/hkaforum">
-                <Image inputPath="./resources/Eingang Holzmodell.jpg" lazy={true} />
+                <Image inputPath="./resources/hkaforum_modell_AnsichtSüd_1.500.jpg" lazy={true} />
                 <div className="index_page_project_title">
                     HKA Forum &ndash; dritter Ort für den HKA-Campus
                 </div>

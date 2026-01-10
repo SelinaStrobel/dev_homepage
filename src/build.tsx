@@ -7,6 +7,7 @@ import { transform } from "lightningcss";
 import AboutPage from "./components/about_page.js";
 import path from "path";
 import HKAForumPage from "./components/project_hkaforum_page.js";
+import MarshausPage from "./components/project_marshaus_page.js";
 
 async function buildStyles() {
     const sourcePaths = [
@@ -15,7 +16,8 @@ async function buildStyles() {
         "./styles/layout.module.css",
         "./styles/reset.css",
         "./styles/fonts.css",
-        "./styles/project_hkaforum_page.module.css"
+        "./styles/project_hkaforum_page.module.css",
+        "./styles/project_marshaus_page.module.css",
     ];
     const destPath = "./deploy/styles.css";
     const sources = await Promise.all(sourcePaths.map(s => fs.promises.readFile(s)));
@@ -86,4 +88,5 @@ buildStyles().catch(e => { throw e; });
 buildRouteInBG("/", <IndexPage />);
 buildRouteInBG("/about", <AboutPage />);
 buildRouteInBG("/projects/hkaforum", <HKAForumPage />);
+buildRouteInBG("/projects/marshaus", <MarshausPage />);
 copyDir("./static", "./deploy").catch(e => { throw e; });

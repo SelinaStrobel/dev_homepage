@@ -7,16 +7,34 @@ export default function HKAForumPage(): React.ReactNode {
         <div className="hkaforum_page_container">
 
             <div className="hkaforum_page_item1">
-                <Image inputPath="./resources/Eingang Holzmodell.jpg" lazy={true} />
+                <Image inputPath="./resources/hkaforum_modell_AnsichtSüd_1.500.jpg" lazy={true} />
             </div>
 
             <div className="hkaforum_page_item2">
-                <Image inputPath="./resources/Tragwerk_Iso.jpg" lazy={true} />
+                <Image inputPath="./resources/hkaforum_modell_Tragwerk_Iso.jpg" lazy={true} />
             </div>
 
             <div className="hkaforum_page_item3">
-                <Image inputPath="./resources/Titel_Eingang 1.200.jpg" lazy={true} />
+                <Image inputPath="./resources/hkaforum_Titel_Eingang 1.200.jpg" lazy={true} />
             </div>
+
+            <div className="hkaforum_page_item4">
+                <Image inputPath="./resources/hkaforum_modell_Tragwerk_Ausschnitt Ecke.jpg" lazy={true} />
+            </div>
+
+            <div className="hkaforum_page_item5">
+                <Image inputPath="./resources/hkaforum_Schnitt West-Ost.jpg" lazy={true} />
+            </div>
+
+            <div className="hkaforum_page_item6">
+                <Image inputPath="./resources/hkaforum_Ansicht Süd.jpg" lazy={true} />
+            </div>
+
+             <div className="hkaforum_page_item7">
+                <Image inputPath="./resources/hkaforum_Lageplan.jpg" lazy={true} />
+            </div>
+
+
             <div className="hkaforum_page_text1">
 
                 <h1>HKA Forum</h1>
