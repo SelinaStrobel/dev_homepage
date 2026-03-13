@@ -20,6 +20,7 @@ async function buildStyles() {
         "./styles/project_hkaforum_page.module.css",
         "./styles/project_marshaus_page.module.css",
         "./styles/projects_page.module.css",
+        "./styles/carousel.module.css",
     ];
     const destPath = "./deploy/styles.css";
     const sources = await Promise.all(sourcePaths.map(s => fs.promises.readFile(s)));
