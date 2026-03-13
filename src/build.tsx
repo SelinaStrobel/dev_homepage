@@ -24,6 +24,7 @@ async function buildStyles() {
         "./styles/project_lebensader_page.module.css",
         "./styles/projects_page.module.css",
         "./styles/carousel.module.css",
+        "./styles/text.module.css",
     ];
     const destPath = "./deploy/styles.css";
     const sources = await Promise.all(sourcePaths.map(s => fs.promises.readFile(s)));

@@ -1,20 +1,18 @@
 .lebensader_page_container {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 400px 300px 400px 400px 400px 400px 400px 400px;
+    grid-template-rows: 300px 350px 450px 350px 350px 350px 350px 350px 350px 350px 350px 350px 350px 350px 350px 350px 350px 350px 350px;
     gap: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .lebensader_page_container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
-
 }
 
 .lebensader_page_text1 {
@@ -49,43 +47,106 @@
     grid-row: 6/7;
 }
 
+.lebensader_page_text_baustruktur {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    margin: 20px;
+}
+
+
 .lebensader_page_pikto_wegenetz {
     grid-column: 1/2;
     grid-row: 7/8;
 }
+
+.lebensader_page_text_wegenetz {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    margin: 20px;
+}
+
 
 .lebensader_page_pikto_gebäudehöhe {
     grid-column: 1/2;
     grid-row: 8/9;
 }
 
+.lebensader_page_text_gebäudehöhe {
+    grid-column: 2/3;
+    grid-row: 8/9;
+    margin: 20px;
+}
+
 .lebensader_page_pikto_retentionsraum {
     grid-column: 2/3;
-    grid-row: 9/11;
+    grid-row: 9/10;
 }
 
-.lebensader_page_text1 h1 {
-    font-size: 50px;
+.lebensader_page_pikto_retentionsraum img {
+    width: 100%;
+    height: auto;
 }
 
-.lebensader_page_text1 h2 {
-    font-size: 20px;
-    margin-bottom: 25px;
+.lebensader_page_text_retentionsraum {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    margin: 20px;
 }
 
-.lebensader_page_text1 h3,
-.lebensader_page_text_lebensader h3,
-.lebensader_page_text_baustruktur h3 {
-    font-size: 25px;
-    margin-bottom: 15px;
+
+.lebensader_page_grundriss_eg {
+    grid-column: 2/3;
+    grid-row: 11/13;
 }
 
-.lebensader_page_text1 p {
-    font-size: 20px;
-    margin-top: 15px;
+.lebensader_page_grundriss_og {
+    grid-column: 2/3;
+    grid-row: 13/15;
 }
 
-.lebensader_page_text_lebensader p {
-    font-size: 20px;
-    margin-top: 15px;
+.lebensader_page_modellfoto_01 {
+    grid-column: 1/2;
+    grid-row: 11/12;
+}
+
+.lebensader_page_modellfoto_02 {
+    grid-column: 1/2;
+    grid-row: 12/13;
+}
+
+.lebensader_page_modellfoto_03 {
+    grid-column: 1/2;
+    grid-row: 13/14;
+}
+
+.lebensader_page_modellfoto_04 {
+    grid-column: 1/2;
+    grid-row: 14/15;
+}
+
+.lebensader_page_schnitt_a {
+    grid-column: 1/3;
+    grid-row: 17/18;
+}
+
+.lebensader_page_schnitt_b {
+    grid-column: 1/3;
+    grid-row: 16/17;
+}
+
+.lebensader_page_text_fassade {
+    grid-column: 1/2;
+    grid-row: 15/16;
+    margin: 20px;
+}
+
+.lebensader_page_text_hof {
+    grid-column: 2/3;
+    grid-row: 15/16;
+    margin: 20px;
+}
+
+.lebensader_page_visualisierung {
+    grid-column: 1/3;
+    grid-row: 18/20;
 }
