@@ -9,6 +9,7 @@
 
     scroll-behavior: smooth;
     overflow: hidden;
+    position: relative;
 }
 
 .carousel_element {
@@ -22,7 +23,7 @@
     transform-origin: center center;
     transform: scale(1);
     transition: transform 0.5s;
-    position: relative;
+
 
     display: flex;
     justify-content: center;
@@ -34,6 +35,36 @@
     width: 30px;
     height: 30px;
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    border-radius: 50%;
+    transition: transform 0.2s, background 0.2s;
+
+    opacity: 0.8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+.carousel_left:hover,
+.carousel_right:hover {
+    transform: translateY(-50%) scale(1.1);
+    background: rgba(0, 0, 0, 0.65);
+}
+
+
+.carousel_left img,
+.carousel_right img {
+    width: 18px;
+    height: 18px;
+
 }
 
 .carousel_left {

@@ -26,8 +26,7 @@ export default function MarshausPage(): React.ReactNode {
                 </p>
                 <p>
                     Der Veranstaltungsraum ist ein seperater Baukörper, der in das Hauptgebäude eingeschoben ist.
-                    Die Verbindung der beiden Baukörper wird durch eine durchgängige Glasfuge gebildet, die sich wie ein Band wei-
-                    ter um das Hauptgebäude wickelt.
+                    Die Verbindung der beiden Baukörper wird durch eine durchgängige Glasfuge gebildet, die sich wie ein Band weiter um das Hauptgebäude wickelt.
                     So bildet der entstehende Luftraum eine Art Pufferzone und lässt das Hauptgebäude scheinbar darüber schweben.
                 </p>
 
