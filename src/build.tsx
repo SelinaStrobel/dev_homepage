@@ -8,7 +8,9 @@ import AboutPage from "./components/about_page.js";
 import path from "path";
 import HKAForumPage from "./components/project_hkaforum_page.js";
 import MarshausPage from "./components/project_marshaus_page.js";
+import LebensaderPage from "./components/project_lebensader_page.js";
 import ProjectsPage from "./components/projects_page.js";
+
 
 async function buildStyles() {
     const sourcePaths = [
@@ -19,6 +21,7 @@ async function buildStyles() {
         "./styles/fonts.css",
         "./styles/project_hkaforum_page.module.css",
         "./styles/project_marshaus_page.module.css",
+        "./styles/project_lebensader_page.module.css",
         "./styles/projects_page.module.css",
         "./styles/carousel.module.css",
     ];
@@ -93,4 +96,5 @@ buildRouteInBG("/about", <AboutPage />);
 buildRouteInBG("/projects", <ProjectsPage />);
 buildRouteInBG("/projects/hkaforum", <HKAForumPage />);
 buildRouteInBG("/projects/marshaus", <MarshausPage />);
+buildRouteInBG("/projects/lebensader", <LebensaderPage />);
 copyDir("./static", "./deploy").catch(e => { throw e; });
